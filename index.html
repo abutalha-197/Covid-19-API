@@ -10,9 +10,10 @@
     <link rel="shortcut icon" href="img4.jpg" type="image/x-icon">
     <style>
         body{
-            background-image: url("img.jpg");
+            background-image: url("img3.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            min-height: 100vh;
         }
         #error-massage{
             display: none;
@@ -25,7 +26,7 @@
 <body class="bg-gray">
     <h2 class="text-center text-success">Covid-19 Information!</h2>
     <!-- covid search area -->
-    <div class="input-group mb-3 w-50 mx-auto">
+    <div class="input-group mb-3 w-75 mx-auto">
         <input id="search-field" type="text" class="form-control" placeholder="Search By Conntry Name" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button  onclick="searchCountry()" class="btn btn-outline-secondary " type="button" id="button-search">Search</button>
       </div>
@@ -33,12 +34,12 @@
     <!-- covid search result -->
     <div id="search-result" class="w-50 mx-auto">
     </div>
-    <!-- <div id="error-massage">
-        <p class="text-danger error"> Please Search By Country Name !</p>
+    <div id="error-massage">
+        <h1 class="text-danger text-center "> Please Search By Country Name !</h1>
     </div>
     <div id="error-massage2">
-        <p class="text-danger error"> Please Search By A Valid Country Name !</p>
-    </div> -->
+        <h1 class="text-danger text-center "> Please Search By A Valid Country Name !</h1>
+    </div>
       
      
     <footer>

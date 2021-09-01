@@ -33,7 +33,7 @@
     border: 2px solid black;
     border-radius: 5px;
     padding: 20px;
-    color:green;
+    color:white;
     text-align: center;
     background-color: black;
     font-size:20px;
@@ -85,12 +85,3 @@
     background-color: green;
     color: yellow;
 }
-/* #error{
-    margin: 10px;
-    padding: 10px;
-    background-color: red;
-    color: yellow;
-    border: 2px solid black;
-    border-radius: 5px;
-    text-align: center;
-} */

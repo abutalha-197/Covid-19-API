@@ -6,6 +6,8 @@ const searchCountry = () => {
     searchField.value = '';
     if (searchText == '') {
         document.getElementById('error-massage').style.display = 'block';
+        document.getElementById('error-massage2').style.display = 'none';
+        document.getElementById('search-result').style.display = 'none';
     }
     else {
         //load data
@@ -13,16 +15,18 @@ const searchCountry = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => dispaysearchresult(data))
-            .catch(error => displayError(error))
+            .catch(error => {
+                document.getElementById('error-massage2').style.display = 'block'
+                document.getElementById('error-massage').style.display = 'none'
+                document.getElementById('search-result').style.display = 'none'
+            })
     }
 
 }
-const displayError = error =>{
-    document.getElementById('error-message2').style.display = 'block';
-}
 
 const dispaysearchresult = data => {
-   
+    document.getElementById('error-massage2').style.display = 'none';
+    document.getElementById('error-massage').style.display = 'none';
         const searchResult = document.getElementById('search-result');
         searchResult.textContent = '';
         console.log(data);
@@ -33,7 +37,7 @@ const dispaysearchresult = data => {
          <h5 class="cName2">Total Active : ${data.active}</h5>
          <h5 class="cName3">Total Cases : ${data.cases}</h5>
          <h5 class="cName4">Total Deaths : ${data.deaths}</h5>
-         <h5 class="cName5">Total Recoverd : ${data.recovered}</h5>
+         <h5 class="cName5">Total Recoverd: ${data.recovered}</h5>
          <h5 class="cName6">Today Cases : ${data.todayCases}</h5>
          <h5 class="cName7">Today Deaths : ${data.todayDeaths}</h5>
          `;
