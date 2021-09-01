@@ -1,0 +1,96 @@
+.cName{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:green;
+    text-align: center;
+    background-color: yellow;
+    font-size:30px;
+}
+.cName1{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:green;
+    text-align: center;
+    background-color: white;
+    font-size:20px;
+}
+.cName2{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;;
+    color:yellow;
+    text-align: center;
+    background-color: red;
+    font-size:20px;
+}
+.cName3{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:green;
+    text-align: center;
+    background-color: black;
+    font-size:20px;
+}
+.cName4{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:white;
+    text-align: center;
+    background-color:green;
+    font-size:20px;
+}
+.cName5{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:black;
+    text-align: center;
+    background-color: white;
+    font-size:20px;
+}
+.cName6{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:green;
+    text-align: center;
+    background-color: burlywood;
+    font-size:20px;
+}
+.cName7{
+    margin: 10px,5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color:black;
+    text-align: center;
+    background-color: gray;
+    font-size:20px;
+}
+.btn{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: green;
+    color: yellow;
+}
+/* #error{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+} */
